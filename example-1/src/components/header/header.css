@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  padding: 2rem 4rem;
+  /* border: 2px solid orange; */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo__img {
+  width: 65px;
+  height: 'auto';
+}
+
+.nav__list {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav__list > li > a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+
+.nav__list > li > a:hover {
+  text-decoration: underline;
+}
